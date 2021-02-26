@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { Container, ProgressIcon } from './styled';
 
 function CircularProgress({ className, ...iconProps }) {
-  console.log(iconProps);
   return (
     <Container className={className}>
       <ProgressIcon {...iconProps} />
